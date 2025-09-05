@@ -1,0 +1,1 @@
+mds-icon--arrow-left  =   button-a

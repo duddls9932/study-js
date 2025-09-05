@@ -1,0 +1,20 @@
+const promise = new Promise((resolve, reject) => {
+    let check = true;
+
+    if (check) {
+        resolve(JSON.stringify({ name: "한동석", email: "test@gmail.com" }));
+    } else {
+        reject("실패!");
+    }
+});
+let a = 0;
+
+promise
+    .then((user) => {
+        a = user;
+        // console.log(JSON.parse(user).name);
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+console.log(a);

@@ -1,0 +1,56 @@
+<!--  
+    absolute(절대적인)
+    내가 원하는 위치에 해당 요소를 배치하고 싶을 때 사용한다.
+    left, right, top, bottom 속성을 사용할 수 있게 된다.
+    부모 태그들에서 relative를 찾은 뒤, 만약 없으면 브라우저를 기준으로 움직인다.
+    단, absoulte를 적용하는 순간 브라우저 혹은 relative기준 좌측 상단(0, 0)으로 배치된다.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position - absolute</title>
+    <style>
+        #element1, #element2 {
+            width: 100px;
+            height: 100px;
+        }
+
+        #element1 {
+            background-color: red;
+            position: absolute;
+            left: 150px;
+            bottom: 10px;
+        }
+
+        #element2 {
+            background-color: purple;
+            position: absolute;
+            right: 30%;
+        }
+
+        #parent-wrap {
+            border: 4px solid hotpink;
+            width: 200px;
+            height: 400px;
+        }
+
+        #element {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: brown;
+            left: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="element1"></div>
+    <div id="element2"></div>
+    <div id="parent-wrap">
+        <div id="element"></div>
+    </div>
+</body>
+</html>

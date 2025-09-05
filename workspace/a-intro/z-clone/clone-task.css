@@ -1,0 +1,404 @@
+@font-face {
+    font-family: SpoqaHanSansNeo;
+    font-weight: 300;
+    src: local("Spoqa Han Sans Thin"),url(https://d3udu241ivsax2.cloudfront.net/common/mds/fonts/SpoqaHanSansNeo-Thin.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/mds/fonts/SpoqaHanSansNeo-Thin.woff) format("woff")
+}
+
+@font-face {
+    font-family: NotoSerifKR;
+    font-weight: 200;
+    src: local("Noto Serif KR"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/NotoSerifKR-ExtraLight.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: NotoSerifKR;
+    font-weight: 300;
+    src: local("Noto Serif KR"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/NotoSerifKR-Light.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: NotoSerifKR;
+    font-weight: 400;
+    src: local("Noto Serif KR"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/NotoSerifKR-Regular.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: NotoSerifKR;
+    font-weight: 500;
+    src: local("Noto Serif KR"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/NotoSerifKR-Medium.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: NotoSerifKR;
+    font-weight: 600;
+    src: local("Noto Serif KR"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/NotoSerifKR-SemiBold.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: NotoSerifKR;
+    font-weight: 700;
+    src: local("Noto Serif KR"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/NotoSerifKR-Bold.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: NotoSerifKR;
+    font-weight: 800;
+    src: local("Noto Serif KR"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/NotoSerifKR-Black.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 300;
+    src: local("Lato"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Lato-Light.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 400;
+    src: local("Lato"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Lato-Regular.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 600;
+    src: local("Lato"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Lato-Bold.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 800;
+    src: local("Lato"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Lato-Black.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 900;
+    font-display: swap;
+    src: local("Pretendard Black"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Black.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Black.subset.woff) format("woff")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 800;
+    font-display: swap;
+    src: local("Pretendard ExtraBold"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-ExtraBold.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-ExtraBold.subset.woff) format("woff")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Pretendard Bold"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Bold.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Bold.subset.woff) format("woff")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 600;
+    font-display: swap;
+    src: local("Pretendard SemiBold"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-SemiBold.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-SemiBold.subset.woff) format("woff")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Pretendard Medium"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Medium.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Medium.subset.woff) format("woff")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Pretendard Regular"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Regular.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Regular.subset.woff) format("woff")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Pretendard Light"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Light.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Light.subset.woff) format("woff")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 200;
+    font-display: swap;
+    src: local("Pretendard ExtraLight"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-ExtraLight.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-ExtraLight.subset.woff) format("woff")
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-weight: 100;
+    font-display: swap;
+    src: local("Pretendard Thin"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Thin.subset.woff2) format("woff2"),url(https://d3udu241ivsax2.cloudfront.net/common/css_v3/fonts/Pretendard-Thin.subset.woff) format("woff")
+}
+
+#wrap {
+    height: 100%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    letter-spacing: -.6px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+    
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body {
+    min-width: 320px;
+    font-family: SpoqaHanSansNeo, Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+    font-size: 14px;
+    color: var(--text-01);
+     background-color: var(--ui-background);
+}
+html {
+    overflow-y: scroll;
+    line-height: 1.3;
+}
+.content {
+    max-width: unset;
+    padding: 0;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.login-container {
+    display: flex;
+    min-height: 100vh;
+}
+.login-container::before {
+    flex: 1;
+    content: "";
+    background: url("https://svc-fe-artifact.millietown.com/v3/images/login/promotion_intro_bg_2025.d24fa38a9230e11cc882674e27e5b032.jpg") no-repeat 50% / cover;
+}
+
+.back-component i {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #242424;
+}
+
+.login-container .login-content {
+    flex-basis: 520px;
+    max-width: 1000px;
+    padding: 80px 40px;
+    background-color: #fff;
+}
+.login-container .title {
+    color: var(--text-01);
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+.login-container .sub-title {
+    color: var(--text-03);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.login-container .input-item {
+    margin-bottom: 8px;
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.login-container .input-item>.mds-input {
+    flex: 1;
+    width: 100%;
+}
+.mds-input {
+    overflow: hidden;
+}
+.mds-input .input {
+    flex: 1;
+}
+label {
+    cursor: default;
+}
+.mds-input .label {
+    display: block;
+    margin-bottom: 1px;
+    font-size: 10px;
+    color: #8b8b8b;
+}
+
+    .mds-input .clear-button {
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.mds-input .inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 8px;
+}
+
+.mds-input input {
+    width: 100%;
+    height: 24px;
+    font-size: 16px;
+    text-align: left;
+}
+.login-container .button-area[data-v-638a8ab1] {
+    margin-top: 16px !important;
+    position: relative;
+}
+.mds-button.mds-button--r4 {
+    border-radius: 4px;
+}
+.mds-button.mds-button--h56 {
+    height: 56px;
+    font-size: 16px;
+    padding: 0 24px;
+}
+.mds-button.mds-button--primary {
+    background-color: var(--primary);
+    color: #242424;
+}
+.mds-button {
+    overflow: hidden;
+    width: 100%;
+    transition: background-color .2s linear, border-color .2s linear, color .2s linear;
+}
+.login-container .login-sub-menu {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 34px;
+    justify-content: center;
+}
+.login-container .login-sub-menu li:after {
+    height: 12px;
+    width: 1px;
+    background-color: var(--text-04);
+    content: "";
+    margin: 0 8px;
+}
+li {
+    list-style: none;
+        text-align: -webkit-match-parent;
+
+}
+.login-container .or:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #a5a5a5;
+}
+.login-container .or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a5a5a5;
+    font-size: 10px;
+    margin-bottom: 16px;
+}
+.login-container .sns-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container .sns-list button {
+    width: 40px;
+    height: 40px;
+}
+.login-container .or {
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    color: #a5a5a5;
+    font-size: 10px;
+    margin-bottom: 16px;
+}
+.login-container .sns-list button:not(:first-child) {
+    margin-left: 24px;
+}
+[type=button], [type=reset], [type=submit], button {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    -webkit-appearance: button;
+    outline: 0;
+}
+button {
+    color:#242424;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+.login-container #loginGoogleBtn {
+    position: relative;
+}
+a, button, img {
+    -webkit-user-drag: none;
+}
+.facebook-account[data-v-638a8ab1] {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: var(--text-04);
+    display: block;
+    margin: 40px auto 24px;
+}
+a {
+    text-decoration: none;
+}
+.wrapper, a, button, img {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a {
+    cursor: pointer;
+    background-color: transparent;
+    color: inherit;
+}

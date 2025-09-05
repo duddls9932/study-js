@@ -1,0 +1,33 @@
+<!-- 
+    100 x 50 에서 300 x 50으로, 
+    투명도는 20%, red에서 blue로, 
+    오른쪽으로 20px 이동 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition - 실습</title>
+    <style>
+        div {
+            width: 100px;
+            height: 50px;
+            background-color: red;
+            transition-property: width, opacity, transform, background-color;
+            transition-duration: 1s;
+            transition-delay: 0s, 1s, 0s, 0s;
+        }
+
+        div:hover {
+            width: 300px;
+            opacity: 20%;
+            background-color: blue;
+            transform: translate(20px)
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+#horizon {
+    border: 2px dotted brown;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#wrap {
+    border: 4px dotted blueviolet;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /*수평 정렬*/
+    align-items: center; /*수직 정렬*/
+}
+
+#container, #article {
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+#container {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#article {
+    align-items: flex-end;
+}
+
+.element {
+    width: 20px;
+    height: 20px;
+    background-color: dimgray;
+}

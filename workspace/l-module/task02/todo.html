@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>모듈화 실습2</title>
+    <style>
+    #todo-wrap {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    #todo-wrap > div {
+        float: left;
+        margin-right: 4px;
+        width: 140px;
+        height: 140px;
+        
+    }
+    tr.completed td:nth-child(2){
+        color: green;
+    }
+    tr.not-completed td:nth-child(2){
+        color: red;
+    }
+    tr,td {
+    border: 1px solid black;
+    }
+    tr td:nth-child(3){
+    width: 70px;
+    font-size: 16px;
+    }
+    tr td:first-child {
+    width: 70px;
+    }
+    td {
+    display: inline-block;
+    width: 460px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    .success{
+        display: none;
+    }
+    .not-completed .success {
+    display: inline-block;
+    }
+
+    </style>
+    </head>
+
+    <body>
+        <!-- 할 일 목록을 20개 불러온다. -->
+        <!-- table 태그를 사용한다. -->
+        <!-- 할 일 중, 완료되지 않은 할 일 내용의 title을 빨간색으로, -->
+        <!-- 완료된 할 일은 녹색으로 출력한다. -->
+        <!-- userId, title 두 개의 정보를 출력한다. -->
+         <button id="get-todos">할일 불러오기</button>
+         <table class="todo-wrap"></table>
+    </body>
+    <script src="service.js"></script>
+    <script src="layout.js"></script>
+    <script src="event.js"></script>
+  
+
+</html>

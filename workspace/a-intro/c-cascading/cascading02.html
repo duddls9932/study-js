@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우선 순위 - 명시도</title>
+    <style>
+        p {
+            color: orange;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        /* 여름에만 배경색을 노랗게, 글자색을 검은색으로 */
+        .summer {
+            background-color: yellow;
+            color: black;
+        }
+
+        /* 여름을 제외한 나머지 p태그의 글자색을 녹색으로 변경 */
+        p {
+            color: green;
+        }
+
+        /* 여름의 배경색을 파란색으로 변경 */
+        body p.summer {
+            background-color: blue;
+        }
+
+        /* 봄과 여름에만 글자색을 핫핑크색으로 변경 */
+        body p:first-child, .summer {
+            color: hotpink;
+        }
+
+        /* 모든 p태그의 글자색을 빨간색 */
+        p {
+            color: red !important;
+        }
+    </style>
+</head>
+<body>
+    <p>봄</p>
+    <p class="summer" style="color: green !important;">여름</p>
+    <p>가을</p>
+    <p>겨울</p>
+</body>
+</html>
